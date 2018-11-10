@@ -8,3 +8,6 @@
  */
 
 rootProject.name = 'classgraph-test'
+
+include ":full-example:jarfile"
+include ":full-example:zipfile"

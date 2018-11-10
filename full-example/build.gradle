@@ -1,0 +1,17 @@
+subprojects {
+    apply plugin: "java"
+    apply plugin: "org.springframework.boot"
+
+    repositories {
+        jcenter()
+        maven { url 'https://jitpack.io' }
+    }
+
+    dependencies {
+        //Use the version of Joinfaces, which is based on classgraph
+        compile "com.github.larsgrefer.joinfaces:primefaces-spring-boot-starter:a563a78a63c382aea3bf07f46ef257498073c6e1"
+
+        runtime 'javax.enterprise:cdi-api:2.0@jar'
+
+    }
+}
