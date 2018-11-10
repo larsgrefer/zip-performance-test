@@ -1,0 +1,7 @@
+
+dependencies {
+    
+    //Use the classgraph variant, which uses Spring Boot's JarFile implementation
+    compile "com.github.larsgrefer:classgraph:84bdae2699adaa5707c8ce60b5d0ed3b382e0f47"
+    compile 'org.springframework.boot:spring-boot-loader:2.1.0.RELEASE'
+}

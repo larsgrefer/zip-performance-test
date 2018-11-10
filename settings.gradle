@@ -11,3 +11,5 @@ rootProject.name = 'classgraph-test'
 
 include ":full-example:jarfile"
 include ":full-example:zipfile"
+include ":half-example:jarfile"
+include ":half-example:zipfile"

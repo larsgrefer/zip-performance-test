@@ -1,0 +1,13 @@
+subprojects {
+    apply plugin: "java"
+
+    repositories {
+        jcenter()
+        maven { url 'https://jitpack.io' }
+    }
+
+    dependencies {
+        compile "org.primefaces:primefaces:6.2"
+        testCompile "junit:junit:4.12"
+    }
+}

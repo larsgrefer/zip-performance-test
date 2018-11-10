@@ -1,0 +1,3 @@
+dependencies {
+    compile "io.github.classgraph:classgraph:4.4.12"
+}
