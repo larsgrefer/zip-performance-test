@@ -1,0 +1,9 @@
+apply plugin: "java"
+
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    compile 'com.github.larsgrefer.spring-boot:spring-boot-loader:a4fac36a25ad6143aed5754e54fcb80ffd27835d'
+}

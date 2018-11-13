@@ -1,0 +1,5 @@
+apply plugin: "java"
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-loader:2.1.0.RELEASE'
+}

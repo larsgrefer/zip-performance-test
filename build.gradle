@@ -8,15 +8,3 @@ buildscript {
         classpath "org.springframework.boot:spring-boot-gradle-plugin:2.1.0.RELEASE"
     }
 }
-
-apply plugin: "java"
-
-repositories {
-    jcenter()
-}
-
-dependencies {
-    compile 'org.springframework.boot:spring-boot-loader:2.1.0.RELEASE'
-
-    testCompile "junit:junit:4.12"
-}
