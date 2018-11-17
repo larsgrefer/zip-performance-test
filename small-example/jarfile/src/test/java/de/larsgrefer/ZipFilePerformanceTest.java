@@ -16,7 +16,7 @@ public class ZipFilePerformanceTest {
 
     @Before
     public void setUp() {
-        file = new File("primefaces-6.2.jar");
+        file = new File("../../primefaces-6.2.jar");
     }
 
     @Test
